@@ -1,0 +1,42 @@
+html,
+body {
+  height: 100%;
+}
+nav{
+  background-color: initial;
+}
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  overflow: hidden;
+  margin:0;
+  padding:0;
+}
+
+.cover{
+    width:100%;
+    position: relative;
+    height:100%;
+    background-image: url("./cover.jpg");
+    background-size: cover;
+}
+footer{
+    position: absolute;
+    bottom:0;
+    left:15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: calc(100% - 30px);
+    background-color: #f5f5f5A0
+}
+@font-face {
+    font-family: font;
+    src: url("Megan June.otf");
+}
+.footerlist > li{
+    display: inline;
+    font: 2em font;
+}
